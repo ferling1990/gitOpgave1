@@ -5,16 +5,16 @@ package dat.sem2.randomdanes;
  * @author kasper
  */
 class Person {
-    private final String navn;
+    private final String hejsa;
     private final String phone;
 
     public Person(String name, String phoneNo) {
-        this.navn = name;
+        this.hejsa = name;
         this.phone = phoneNo;
     }
 
     public String getName() {
-        return navn;
+        return hejsa;
     }
 
     public String getPhoneNo() {
@@ -23,7 +23,7 @@ class Person {
 
     @Override
     public String toString() {
-        return navn + " ph: " + phone;
+        return hejsa + " ph: " + phone;
     }
     
 }
